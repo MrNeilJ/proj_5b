@@ -15,6 +15,12 @@ private:
 
 
 public:
+    // Blank constructor in case the user puts in nothing
+    BankAccount();
+
+    // Filled constuctor in case the user adds in information
+    BankAccount(string, string, double);
+
     // Returns name saved in object
     string getCustomerName()
 
