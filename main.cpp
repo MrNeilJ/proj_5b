@@ -37,5 +37,7 @@ int main() {
     std::cout << "Updated Balance: " << accountTest.getCustomerBalance() << std::endl;
 
     std::cout << "\n...Depositing 1000 Dollars........" << std::endl;
+    accountTest.deposit(1000);
+    std::cout << "Updated Balance: " << accountTest.getCustomerBalance() << std::endl;
     return 0;
 }
