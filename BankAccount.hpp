@@ -9,8 +9,8 @@
 
 class BankAccount {
 private:
-    string name;
-    string id;
+    std::string name;
+    std::string id;
     double balance;
 
 
@@ -19,24 +19,24 @@ public:
     BankAccount();
 
     // Filled constuctor in case the user adds in information
-    BankAccount(string, string, double);
+    BankAccount(std::string, std::string, double);
 
     // Returns name saved in object
-    string getCustomerName()
+    std::string getCustomerName();
 
     // Returns customer ID save in object
-    string getCustomerID()
+    std::string getCustomerID();
 
     // Returns current balance saved in the balance variable
-    double getCustomerBalance()
+    double getCustomerBalance();
 
     // Pulls a value from the input and subtracts the
     // value from the balance variable
-    double withdraw(double)
+    void withdraw(double);
 
     // Pulls a value from the input and adds the value
     // to the balance variable.
-    double deposit(double)
+    void deposit(double);
 };
 
 

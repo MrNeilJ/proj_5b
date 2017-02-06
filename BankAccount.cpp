@@ -14,34 +14,34 @@ BankAccount::BankAccount()
 }
 
 // Constructor to allow the user to add information at object creation
-BankAccount::BankAccount(string inputName, string inputID, double inputBalance)
+BankAccount::BankAccount(std::string inputName, std::string inputID, double inputBalance)
 {
     name    = inputName;
     id      = inputID;
     balance = inputBalance;
 }
 
-string BankAccount::getCustomerName()
+std::string BankAccount::getCustomerName()
 {
-
+    return name;
 }
 
-string BankAccount::getCustomerID()
+std::string BankAccount::getCustomerID()
 {
-
+    return id;
 }
 
 double BankAccount::getCustomerBalance()
 {
-
+    return balance;
 }
 
-double BankAccount::withdraw(double)
+void BankAccount::withdraw(double input)
 {
-
+    balance -= input;
 }
 
-double BankAccount::deposit(double)
+void BankAccount::deposit(double input)
 {
-
+    balance += input;
 }
