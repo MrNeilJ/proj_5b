@@ -1,6 +1,14 @@
-//
-// Created by Neil Johnson on 2/5/17.
-//
+/**************************************************************
+ * Author: Neil Johnson
+ *
+ * Date: 2.5.2017
+ *
+ * Description: This is the header file for the BankAccount
+ * Class.  In the program it defines the private variables for
+ * the Class (name, id, balance) and the needed prototypes
+ * to use the class effectively.
+ *************************************************************/
+
 #include<string>
 
 #ifndef PROJ_5B_BANKACCOUNT_HPP

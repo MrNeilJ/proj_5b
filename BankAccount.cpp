@@ -1,6 +1,15 @@
-//
-// Created by Neil Johnson on 2/5/17.
-//
+/**************************************************************
+ * Author: Neil Johnson
+ *
+ * Date: 2.5.2017
+ *
+ * Description: This file hosts the class functions for the
+ * BankAccount.  It allows the individual to create an object
+ * (blank or with input).  In here the user can pull account
+ * information such as the name, id, and balance, as well as
+ * adjust balance values by withdrawing and depositing into
+ * the balance variable.
+ *************************************************************/
 
 #include <string>
 #include "BankAccount.hpp"

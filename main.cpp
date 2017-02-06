@@ -1,4 +1,13 @@
-#include <iostream>
+/**************************************************************
+ * Author: Neil Johnson
+ *
+ * Date: 2.5.2017
+ *
+ * Description: This is the main file for testing of the
+ * BankAccount class.  The tests in here are apart of the
+ * examples in the guidelines for the Assignment.
+ *************************************************************/
+
 #include "BankAccount.hpp"
 
 
