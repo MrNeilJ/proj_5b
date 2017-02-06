@@ -14,7 +14,10 @@
 #include <string>
 #include "BankAccount.hpp"
 
-// Blank constructor in case the user leaves the object blank.
+/**************************************************************
+ * Description: Blank constructor in case the user leaves the
+ * object blank.
+**************************************************************/
 BankAccount::BankAccount()
 {
     name    = "";
@@ -22,7 +25,10 @@ BankAccount::BankAccount()
     balance = 0.00;
 }
 
-// Constructor to allow the user to add information at object creation
+/**************************************************************
+ * Description: Constructor to allow the user to add
+ * information at object creation
+**************************************************************/
 BankAccount::BankAccount(std::string inputName, std::string inputID, double inputBalance)
 {
     name    = inputName;
@@ -30,26 +36,46 @@ BankAccount::BankAccount(std::string inputName, std::string inputID, double inpu
     balance = inputBalance;
 }
 
+/**************************************************************
+ * Description: Function that allows the user to access the
+ * private name value in BankAccount Object
+**************************************************************/
 std::string BankAccount::getCustomerName()
 {
     return name;
 }
 
+/**************************************************************
+ * Description: Function that allows the user to access the
+ * private id value in the BankAccount Object
+**************************************************************/
 std::string BankAccount::getCustomerID()
 {
     return id;
 }
 
+/**************************************************************
+ * Description: Function that allows the user to access the
+ * private balance value in the BankAccount Object
+**************************************************************/
 double BankAccount::getCustomerBalance()
 {
     return balance;
 }
 
+/**************************************************************
+ * Description: Function that allows the user to alter the
+ * value stored in balance by subtracting input value
+**************************************************************/
 void BankAccount::withdraw(double input)
 {
     balance -= input;
 }
 
+/**************************************************************
+ * Description: Function that allows the user to alter the
+ * value stored in balance by adding input value
+**************************************************************/
 void BankAccount::deposit(double input)
 {
     balance += input;
