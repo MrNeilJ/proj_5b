@@ -15,6 +15,7 @@
 #include "BankAccount.hpp"
 
 /**************************************************************
+ *                   BankAccount::BankAccount
  * Description: Blank constructor in case the user leaves the
  * object blank.
 **************************************************************/
@@ -26,6 +27,7 @@ BankAccount::BankAccount()
 }
 
 /**************************************************************
+ *                   BankAccount::BankAccount
  * Description: Constructor to allow the user to add
  * information at object creation
 **************************************************************/
@@ -37,6 +39,7 @@ BankAccount::BankAccount(std::string inputName, std::string inputID, double inpu
 }
 
 /**************************************************************
+ *                   BankAccount:getCustomerName
  * Description: Function that allows the user to access the
  * private name value in BankAccount Object
 **************************************************************/
@@ -46,6 +49,7 @@ std::string BankAccount::getCustomerName()
 }
 
 /**************************************************************
+ *                   BankAccount::getCustomerID
  * Description: Function that allows the user to access the
  * private id value in the BankAccount Object
 **************************************************************/
@@ -55,6 +59,7 @@ std::string BankAccount::getCustomerID()
 }
 
 /**************************************************************
+ *                   BankAccount::getCustomerBalance
  * Description: Function that allows the user to access the
  * private balance value in the BankAccount Object
 **************************************************************/
@@ -64,6 +69,7 @@ double BankAccount::getCustomerBalance()
 }
 
 /**************************************************************
+ *                   BankAccount::withdraw
  * Description: Function that allows the user to alter the
  * value stored in balance by subtracting input value
 **************************************************************/
@@ -73,6 +79,7 @@ void BankAccount::withdraw(double input)
 }
 
 /**************************************************************
+ *                   BankAccount::deposit
  * Description: Function that allows the user to alter the
  * value stored in balance by adding input value
 **************************************************************/
